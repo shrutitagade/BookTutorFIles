@@ -1,0 +1,276 @@
+#title {
+  color: #ff0f00;
+  font-size: 25px;
+  font-family: "Shrikhand", serif;
+  font-weight: 600;
+  font-style: normal;
+  margin-left: 10px;
+  text-shadow: 0.5px 0.5px 0.5px black;
+}
+/* Home.css */
+
+/* Styling for custom card */
+.custom-card {
+  background-color: #f8f9fa;
+  transition: transform 0.3s ease-in-out;
+}
+
+.custom-card:hover {
+  transform: translateY(-5px);
+}
+
+/* Styling for delete button */
+.btn-danger {
+  background-color: #dc3545;
+  border-color: #dc3545;
+  transition: background-color 0.3s ease-in-out, border-color 0.3s ease-in-out;
+}
+
+.btn-danger:hover {
+  background-color: #c82333;
+  border-color: #bd2130;
+}
+
+.dropdown-item:hover {
+  text-decoration: underline;
+}
+
+.dropdown-item {
+  margin-right: 50px;
+}
+
+#title:hover {
+  color: red;
+  text-decoration: underline;
+}
+
+.nav-link:hover {
+  text-decoration: underline;
+
+}
+
+#profile {
+  margin-right: 10px;
+}
+
+.nav-link {
+  text-decoration: none;
+}
+
+/* Default styles for input */
+#searchinput {
+  width: 500px;
+  /* Width for laptop size */
+  margin: 0 auto;
+  /* Centering horizontally */
+}
+
+/* Media query for mobile screens */
+@media (max-width: 768px) {
+  #searchinput {
+    width: calc(100% - 20px);
+    /* Adjust width to fit screen minus some margin */
+  }
+
+}
+
+
+.navbar {
+  background-color: rgb(58, 58, 97);
+  color: white;
+  height: auto;
+  padding: 40px;
+
+}
+
+nav {
+  padding: 30px;
+
+}
+.help-and-support {
+  padding: 20px;
+}
+
+.faq-section,
+.troubleshooting-section,
+.contact-us-section {
+  margin-bottom: 30px;
+}
+
+.faq-section h2,
+.troubleshooting-section h2,
+.contact-us-section h2 {
+  margin-bottom: 15px;
+}
+
+.faq-section ol,
+.troubleshooting-section ol {
+  padding-left: 20px;
+}
+
+.faq-section li,
+.troubleshooting-section li {
+  margin-bottom: 15px;
+}
+
+.faq-section strong,
+.troubleshooting-section strong {
+  color: #007bff;
+}
+
+.troubleshooting-section ul {
+  margin-bottom: 0;
+}
+
+.contact-us-section a {
+  color: #28a745;
+}
+
+/* Customize colors as needed */
+.text-primary {
+  color: #007bff !important;
+}
+
+.text-info {
+  color: #17a2b8 !important;
+}
+
+.text-danger {
+  color: #dc3545 !important;
+}
+
+.text-success {
+  color: #28a745 !important;
+}
+
+#search {
+  color: white;
+  background-color: rgb(105, 31, 105);
+  border: 2px solid red;
+}
+
+#search:hover {
+  background-color: rgb(223, 34, 34);
+}
+
+.navbar-brand {
+  margin-right: auto;
+  /* Pushes LearnEase to the left */
+}
+
+.navbar-nav {
+  margin-left: auto;
+  /* Pushes Profile section to the right */
+}
+
+@media (max-width: 768px) {
+
+  /* Adjust for mobile screens */
+  .navbar-nav {
+    margin-left: 0;
+    /* Resets margin for mobile screens */
+  }
+
+  .navbar-brand {
+    margin-right: 0;
+    /* Resets margin for mobile screens */
+  }
+}
+/* StudentClasses.css */
+.student-classes-container {
+  padding: 20px;
+}
+
+.page-title {
+  margin-bottom: 20px;
+}
+
+.card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.card-img {
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  width: 100%;
+  height: 200px; /* Adjust the height as needed */
+  object-fit: cover;
+}
+
+.card-body {
+  padding: 20px;
+}
+
+.card-title {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.card-text {
+  margin-bottom: 10px;
+}
+
+.empty-courses {
+  text-align: center;
+  margin-top: 50px;
+  font-size: 18px;
+  color: #888;
+}
+/* StudentClasses.css */
+
+/* Styling for the join button */
+.join-button {
+  background-color: #28a745; /* Green background color */
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease; /* Smooth transition */
+}
+
+.join-button:hover {
+  background-color: #218838; /* Darker green on hover */
+}
+
+/* Styling for the card */
+.card {
+  border: 1px solid #ddd; /* Gray border */
+  border-radius: 8px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow */
+}
+
+.card-img {
+  width: 100%;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.card-body {
+  padding: 20px;
+}
+
+.card-title {
+  font-size: 1.25rem;
+  margin-bottom: 10px;
+}
+
+.card-text {
+  margin-bottom: 5px;
+}
+
+/* Styling for the container */
+.student-classes-container {
+  padding: 20px;
+}
+
+/* Styling for the empty courses message */
+.empty-courses {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 1.2rem;
+  color: #6c757d; /* Gray color */
+}
+
