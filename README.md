@@ -17,7 +17,6 @@ Welcome to the Tutor Booking Website! This platform allows students to connect w
 
 - Frontend: 
   - React
-  - Vite
   - Bootstrap for styling
   - CSS for custom styles
 
@@ -45,13 +44,11 @@ To set up the project locally, follow these steps:
    Create a `.env` file in the root directory and add the following variables:
    
    MONGO_URI=your_mongo_connection_string
-   JWT_SECRET=your_jwt_secret
    
 
 4. Start the development server:
    bash
    npm run dev
-   
 
  Usage
 
